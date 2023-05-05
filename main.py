@@ -31,6 +31,7 @@ while True:
 
 
 
+
     cv2.imshow("Image",img)
     cv2.imshow("Imageout",imgout)
     cv2.waitKey(1)
