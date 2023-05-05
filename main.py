@@ -7,7 +7,6 @@ mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5)
 
-
 bgr = cv2.imread('desert-1654439__340.jpg')
 new_size = (640, 480)
 
